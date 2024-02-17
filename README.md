@@ -1,21 +1,40 @@
-<<<<<<< HEAD
-# assesment_app
+# Flutter Discovery App
 
-A new Flutter project.
+Welcome to the Flutter Discovery App! This app allows users to explore a variety of items fetched from a mock API, with smooth infinite scroll pagination and a visually appealing interface.
+
+![App Screenshot](screenshots/Screenshot_1708166770.png)
+![App Screenshot](screenshots/Screenshot_1708166593.png)
+![App Screenshot](screenshots/Screenshot_1708166820.png)
+![App Screenshot](screenshots/Screenshot_1708165215.png)
+
+## Features
+
+- *Discovery Page*: Browse through a curated list of items fetched from the mock API.
+- *Infinite Scroll Pagination*: Load more items seamlessly as you scroll down the page.
+- *Visually Appealing UI*: Enjoy a visually pleasing interface with smooth animations and transitions.
+- *Custom Theme*: Pink and black color combination for a stylish look.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this Flutter app locally, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone this repository to your local machine:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   ```bash
+   git clone <repository_url>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# flutter_pagination
-created a simple flutter application to implement pagination with loading effect.
->>>>>>> origin/main
+
+2. Navigate to the project directory:
+
+cd flutter-discovery-app
+3. Install dependencies using Flutter's package manager, pub:
+
+flutter pub get
+4. Run the app on a connected device or emulator:
+flutter run
+Dependencies
+This project uses the following dependencies:
+
+http: For making HTTP requests to fetch data from the mock API.
+flutter/material.dart: Flutter's material design widgets for building the UI.
+dart:convert: Dart's built-in library for encoding and decoding JSON data.
