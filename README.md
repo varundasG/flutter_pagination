@@ -25,14 +25,19 @@ To run this Flutter app locally, follow these steps:
 
 
 2. Navigate to the project directory:
+    ```bash
+    cd flutter-discovery-app
 
-cd flutter-discovery-app
 3. Install dependencies using Flutter's package manager, pub:
+    ```bash
+    flutter pub get
 
-flutter pub get
 4. Run the app on a connected device or emulator:
-flutter run
-Dependencies
+    ```bash
+    flutter run
+
+##Dependencies
+
 This project uses the following dependencies:
 
 http: For making HTTP requests to fetch data from the mock API.
