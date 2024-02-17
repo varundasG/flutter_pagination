@@ -2,10 +2,8 @@
 
 Welcome to the Flutter Discovery App! This app allows users to explore a variety of items fetched from a mock API, with smooth infinite scroll pagination and a visually appealing interface.
 
-![App Screenshot](screenshots/Screenshot_1708166770.png)
-![App Screenshot](screenshots/Screenshot_1708166593.png)
-![App Screenshot](screenshots/Screenshot_1708166820.png)
-![App Screenshot](screenshots/Screenshot_1708165215.png)
+
+![App Screenshot](screenshots/pagination_img1.jpeg)
 
 ## Features
 
@@ -36,7 +34,7 @@ To run this Flutter app locally, follow these steps:
     ```bash
     flutter run
 
-##Dependencies
+## Dependencies
 
 This project uses the following dependencies:
 
